@@ -1,139 +1,415 @@
-<!--parallax 1 -->
-<section class="bg-1 text-center">
-     <h1 class="">Bootstrap Parallax</h1>
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-    <p class="lead">Add Some Motion</p>
-</section>
-<!--/parallax 1-->
-<div class="container">
-    <hr class="">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                     <h3 class="">DESARROLLO SOFTWARE</h3>
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <title>Arsames Qajar - Web Developer|| Entrepreneur || Philosophy major</title>
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/agency.css" rel="stylesheet">
+
+        <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js"></script>
+         <!-- Custom Theme files -->
+         <!---- animated-css ---->
+        <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+        <script src="js/wow.min.js"></script>
+        <script>
+         new WOW().init();
+        </script>
+        <!---- animated-css ---->
+          <!---- start-smoth-scrolling---->
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $(".scroll").click(function(event){     
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                });
+            });
+        </script>
+         <!---- start-smoth-scrolling---->
+        <link href="css/style.css" rel='stylesheet' type='text/css' />
+         <!-- Custom Theme files -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        </script>
+        <!----webfonts--->
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <!---//webfonts--->
+        <!----start-top-nav-script---->
+        <script>
+            $(function() {
+                var pull        = $('#pull');
+                    menu        = $('nav ul');
+                    menuHeight  = menu.height();
+                $(pull).on('click', function(e) {
+                    e.preventDefault();
+                    menu.slideToggle();
+                });
+                $(window).resize(function(){
+                    var w = $(window).width();
+                    if(w > 320 && menu.is(':hidden')) {
+                        menu.removeAttr('style');
+                    }
+                });
+            });
+        </script>
+        <!----//End-top-nav-script---->
+    </head>
+
+
+    <body>
+        <div class="bg">
+        <!----- start-header---->
+            <div id="home" class="header wow bounceInDown" data-wow-delay="0.4s">
+                    <div class="top-header">
+                        <div class="container">
+                        <div class="logo">
+                            <a href="#"><img src="" /></a>
+                        </div>
+                        <!----start-top-nav---->
+                         <nav class="top-nav">
+                            <ul class="top-nav">
+                                <li><a href="#home" class="scroll">Home</a></li>
+                                <li><a href="#services" class="scroll">About Me</a></li>
+                                <li><a href="#port" class="scroll">Projects</a></li>
+                                <li><a href="#team" class="scroll">Resume</a></li>
+                                <li><a href="#contact" class="scroll">Contact</a></li>
+                            </ul>
+                            <a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
+                        </nav>
+                        <div class="clearfix"> </div>
+                    </div>
                 </div>
-                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra
-                    varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt
-                    condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis
-                    nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor
-                    accumsan. Aliquam in felis sit amet augue.</div>
-                <div class="panel-footer text-right"><a href="#" class="btn btn-default">More</a>
-
+            </div>
+            <!----- //End-header---->
+            <!---- banner ---->
+            <div class="banner wow fadeIn" data-wow-delay="0.5s">
+                <div class="container">
+                    <div class="banner-info text-center">
+                        <h1>Arsames Qajar</h1><br />
+                       
+                        <p style="color:black; background-color:white"><strong>PASSIONATE DEVELOPER || NONPROFIT CONSULTANT || AWESOME DUDE </strong></p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                     <h3 class="">APLICACIONES MOVILES.</h3>
-
-                </div>
-                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra
-                    varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt
-                    condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis
-                    nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor
-                    accumsan. Aliquam in felis sit amet augue.</div>
-                <div class="panel-footer text-right"><a href="#" class="btn btn-default">More</a>
-
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                     <h3 class="">SERVICIO TESTING</h3>
-
-                </div>
-                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra
-                    varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt
-                    condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis
-                    nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor
-                    accumsan. Aliquam in felis sit amet augue.</div>
-                <div class="panel-footer text-right"><a href="#" class="btn btn-default">More</a>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/row-->
-    <hr class="">
-</div>
-<!--/container-->
-<div class="divider"></div>
-<section class="bg-2">
-    <div class="col-sm-10 col-sm-offset-1 text-center">
-         <h1 class="">Keep Going</h1>
-
-    </div>
-</section>
-<div class="divider"></div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                     <h3 class="">Hello.</h3>
-
-                </div>
-                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra
-                    varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt
-                    condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis
-                    nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor
-                    accumsan. Aliquam in felis sit amet augue.</div>
-                <div class="panel-footer text-right"><a href="#" class="btn btn-default">More</a>
-
+            <!--- banner -->
+          <!-- services --> 
+            <div id="services" class="services">
+                <div class="container">
+                    <div class="service-head text-center">
+                        <h2> ABOUT ME </h2>
+                        <span> </span>
+                    </div>
+            <!--services-grids -->                                   
+            <div class="services-grids text-center">
+                        <div class="col-md-4">
+                            <div class="service-grid wow bounceIn" data-wow-delay="0.4s">
+                                
+                                <img src = "images/logo.png">
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="service-grid wow bounceIn" >
+                                <h3><a href="#"> Hi. Nice to Meet you. </a></h3>
+                                <p>I am Arsames Qajar. Philosophy major with a penchant for making stuff. Fiddled in Finance stuff for a while, until I happened upon my first startup, called <a href= "https://www.youtube.com/watch?v=bNGNr-TeUSU">BridgeGap</a>, with my technical cofounder who would flee in the midst of our venture to get married - Vegas style.   </p>
+                            </div>
+                        </div>
+                       <!--  <div class="col-md-4">
+                            <div class="service-grid wow bounceIn" data-wow-delay="0.4s">
+                                <span class="service-icon3"> </span>
+                                <h3><a href="#">24/7 Support</a></h3>
+                                <p>Proin iaculis purus consequat sem digni ssim. Donec porttitora entum aenean rhoncus posuere odio in.</p>
+                            </div> -->
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <!--- services-grids --->
                 </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                     <h3 class="">Hello.</h3>
-
-                </div>
-                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra
-                    varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt
-                    condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis
-                    nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor
-                    accumsan. Aliquam in felis sit amet augue.</div>
-                <div class="panel-footer text-right"><a href="#" class="btn btn-default">More</a>
-
+            <!--- services --->
+            <div class="clearfix"> </div>
+            <!--- Other Expertise ---->
+            <div id="port" class="expertise">
+                <div class="expertice-grids">
+                    <div class="col-md-8 expertice-left-grid wow fadeInLeft" data-wow-delay="0.4s">
+                        <div class="expertise-head">
+                            <h3>Technical Languages</h3>
+                            <p> <a href= "https://generalassemb.ly/education/web-development-immersive">General Assembly</a> is a 12 week bootcamp in which we were fully immersed in the world of programming for 12 hours a day! Below are just some of the languages we became familiar with and, in particular, some of the ones with which I feel most comfortable! </p>
+                        </div>
+                        <div class="expertise-left-inner-grids">
+                            <div class="e-left-inner-grid">
+                                <div class="e-left-inner-grid-left">
+                                    <span class="e-icon1"> </span>
+                                </div>
+                                <div class="e-left-inner-grid-right">
+                                    <h4>Ruby on Rails</h4>
+                                    <p>Cool Language I've done some stuff in.</p>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                            <div class="e-left-inner-grid">
+                                <div class="e-left-inner-grid-left">
+                                    <span class="e-icon2"> </span>
+                                </div>
+                                <div class="e-left-inner-grid-right">
+                                    <h4>SQL</h4>
+                                    <p>SeQuel. Amazing language. Everyone should do more in it!.</p>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                            <div class="e-left-inner-grid">
+                                <div class="e-left-inner-grid-left">
+                                    <span class="e-icon3"> </span>
+                                </div>
+                                <div class="e-left-inner-grid-right">
+                                    <h4>Javascript</h4>
+                                    <p>If Google can get behind it, then why shouldn't you?.</p>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                            <div class="e-left-inner-grid">
+                                <div class="e-left-inner-grid-left">
+                                    <span class="e-icon4"> </span>
+                                </div>
+                                <div class="e-left-inner-grid-right">
+                                    <h4>HTML5, CSS3, Bootstrap</h4>
+                                    <p>The fundamentals. If you learn anything, learn this.</p>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <a class="leran-more" href="#">Learn more</a>
+                    </div>
+                    <div class="col-md-4 expertice-right-grid wow fadeInRight" data-wow-delay="0.4s">
+                        
+                    </div>
+                    <div class="clearfix"> </div> 
                 </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                     <h3 class="">Hello.</h3>
-
-                </div>
-                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra
-                    varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt
-                    condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis
-                    nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor
-                    accumsan. Aliquam in felis sit amet augue.</div>
-                <div class="panel-footer text-right"><a href="#" class="btn btn-default">More</a>
-
+            <!--- Other Expertise ---->
+            <!--- portfolio ---->
+            <div class="portfolio">
+                <div class="portfolio-top">
+                    <div class="col-md-8">
+                        <div class="portfolio-top-left wow fadeInLeft" data-wow-delay="0.4s">
+                            <h3>Some of my Projects</h3>
+                            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
+                            <p>Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat.</p>
+                            <div class="portfolio-top-left-grids">
+                                <div class="portfolio-top-left-grid">
+                                    <div class="portfolio-top-left-grid-left">
+                                        <span class="p-icon1"> </span>
+                                    </div>
+                                    <div class="portfolio-top-left-grid-right">
+                                        <h5>Ruby on Rails with Postgres</h5>
+                                        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+                                    </div>
+                                    <div class="clearfix"> </div>
+                                </div>
+                                <div class="portfolio-top-left-grid">
+                                    <div class="portfolio-top-left-grid-left">
+                                        <span class="p-icon2"> </span>
+                                    </div>
+                                    <div class="portfolio-top-left-grid-right">
+                                        <h5>SQL heavy</h5>
+                                        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+                                    </div>
+                                    <div class="clearfix"> </div>
+                                </div>
+                                <div class="portfolio-top-left-grid">
+                                    <div class="portfolio-top-left-grid-left">
+                                        <span class="p-icon3"> </span>
+                                    </div>
+                                    <div class="portfolio-top-left-grid-right">
+                                        <h5>Solve Problems</h5>
+                                        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+                                    </div>
+                                    <div class="clearfix"> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 portfolio-top-right-inner wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="portfolio-top-right">
+                            
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                    <!---- portfolio-works ---->
+                    <div class="portfolio-works">
+                        <div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+                            <div class="portfolio-work-grid-pic">
+                                <img src="images/p1.jpg" title="name" />
+                            </div>
+                            <div class="portfolio-work-grid-caption">
+                                <h4>Project title</h4>
+                                <p>Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+                            <div class="portfolio-work-grid-pic">
+                                <img src="images/p2.jpg" title="name" />
+                            </div>
+                            <div class="portfolio-work-grid-caption">
+                                <h4>Project title</h4>
+                                <p>Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+                            <div class="portfolio-work-grid-pic">
+                                <img src="images/p3.jpg" title="name" />
+                            </div>
+                            <div class="portfolio-work-grid-caption">
+                                <h4>Project title</h4>
+                                <p>Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+                            <div class="portfolio-work-grid-pic">
+                                <img src="images/p4.jpg" title="name" />
+                            </div>
+                            <div class="portfolio-work-grid-caption">
+                                <h4>Project title</h4>
+                                <p>Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+                            <div class="portfolio-work-grid-pic">
+                                <img src="images/p5.jpg" title="name" />
+                            </div>
+                            <div class="portfolio-work-grid-caption">
+                                <h4>Project title</h4>
+                                <p>Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+                            <div class="portfolio-work-grid-pic">
+                                <img src="images/p6.jpg" title="name" />
+                            </div>
+                            <div class="portfolio-work-grid-caption">
+                                <h4>Project title</h4>
+                                <p>Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.</p>
+                            </div>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <!---- portfolio-works ---->
                 </div>
             </div>
+            <!--- portfolio ---->
+            <!---- about ---->
+            <!---start-about---->
+        <div class="about">
+            <div class="wrap"> 
+                <div class="about-head">
+                    <h1>The Journey to Web Development</h1>
+                    <span> </span>
+                </div>
+                <!---start-about-time-line---->
+                <div class="about-time-line">
+                    <li>
+                            <div class="cbp_tmicon img1"> </div>
+                            <div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">
+                                <h2>Graduated May 2012</h2>
+                                <p>Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
+                            </div>
+                    </li>
+                    <li>
+                            <div class="cbp_tmicon1 img2"> </div>
+                            <div class="cbp_tmlabel cbp_tmlabel1 wow fadeInRight" data-wow-delay="0.4s">
+                                <h2>Wealth Manager 2012-2013 </h2>
+                                <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                            </div>
+                    </li><br />
+                    <li>
+                            <div class="cbp_tmicon2 img3"> </div>
+                            <div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">
+                                <h2>Nonprofit Work 2013-2015 </h2>
+                                <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni.</p>
+                            </div>
+                    </li>
+                    <li>
+                            <div class="cbp_tmicon3 img4"> </div>
+                            <div class="cbp_tmlabel cbp_tmlabel1 wow fadeInRight" data-wow-delay="0.4s">
+                                <h2>Web Developer 2015 </h2>
+                                <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean.</p>
+                            </div>
+                    </li>
+
+               
+                <!---//End-about-time-line---->
+            <!---- about ---->
         </div>
-    </div>
-</div>
-<!--/container-->
-<div class="divider"></div>
-<!--parallax 2 -->
-<section class="bg-3 text-center">
-     <h1 class="">Bootstrap Parallax</h1>
+<!--           RESUME -->        
+    <div id="team" class="team-members">
+                    <div class="wrap"> 
+                        <div class="tm-head">
+                            <h3> Resume </h3>
+                            <p> Yup, <br>got one of those too.</p>
+                        </div>
+                <div class="row">
+                   <div class="col-lg-6 col-lg-4 center-block">
+                        <img src ="images/resume.png">
+                    </div>
+                </div>
+                    </div>
+                </div>
+            <!---- RESUME --->
+<!-          CONTACT -->            
+<div id="contact" class="contact">
+                <div class="container">
+                <div class="contact-grids">
+<!--                     <div class="col-md-6">
+ -->                        <div class="contact-head text-center" data-wow-delay="0.4s">
+                            <h3 style = "color:white">Contact </h3>
+                            <label style = "color:white">Don't be shy, drop us an email and say hello! We are a really nice bunch of people :)</label> <br>
+                            <div style = "background-color:white">
 
-    <p class="lead"></p>
-</section>
-<!--/parallax 2-->
-<div id="footer" class="">
-    <div class="container">
-        <p class="text-muted">This Bootstrap Example courtesy <a href="http://www.bootply.com" class="">Bootply.com</a>
+                            <a href="https://github.com/acqajar" target="_blank">
+                            <i class="fa fa-github-square fa-3x"></i></a>
 
-        </p>
-    </div>
-</div>
+
+                            <a href="https://www.linkedin.com/pub/arsames-qajar/3b/44b/a44" target="_blank">
+                            <i class="fa fa-linkedin-square fa-3x"></i>
+                            </a>
+
+                            <a href="https://twitter.com/acqajar" target="_blank">
+                            <i class="fa fa-twitter-square fa-3x"></i>
+                            </a>
+
+
+                            <a href="mailto:acqajar@gmail.com" target="_blank">
+                            <i class="fa fa-envelope-square fa-3x"></i>     </a>
+                        </div>
+                        </div>
+                    <!-- </div> -->             
+            </div>
+            <!---- contact --->
+        </div>
+    </body>
+</html>
+
