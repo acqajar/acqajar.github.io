@@ -455,7 +455,7 @@ a.leran-more:hover{
 }
 /*----start-about----*/
 .about{
-	padding:3em 0;
+	padding:0em 0;
 }
 .about-head{
 	text-align: center;
@@ -541,25 +541,25 @@ a.leran-more:hover{
 	top: 100%;
 }
 .img1{
-	background:url(../images/time-line-img.jpg) no-repeat;
+	background:url(http://exploringeducationalexcellence.org/images/nivo/cornell.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .img2{
-	background:url(../images/time-line-img1.jpg) no-repeat;
+	background:url(http://i.giphy.com/MRynV7pNzABfq.gif) no-repeat;
 	background-size: 100% 100%;
 }
 .img3{
-	background:url(../images/time-line-img2.jpg) no-repeat;
+	background:url(http://actrees.org/wp-content/uploads/2012/01/BGCA-Color-Logo-300x200.jpeg) no-repeat;
 	background-size: 100% 100%;
 }
 .img4{
-	background:url(../images/time-line-img4.jpg) no-repeat;
+	background:url(../images/image4.jpg) no-repeat;
 	background-size: 100% 100%;
 }
-.img5{
-	background:url(../images/time-line-img5.png) no-repeat #7CC576;
+/*.img5{
+	background:url(http://i.giphy.com/3o85xvSx4BOTYs8gNy.gif) no-repeat #7CC576;
 	background-size: 100% 100%;
-}
+}*/
 .about-time-line > li .cbp_tmlabel {
 	margin: 0 0 0px -8%;
 	color: #fff;
@@ -596,8 +596,8 @@ a.leran-more:hover{
 /*--//about-time-line--*/
 /*---team-members--*/
 .team-members{
-	padding: 3em 0 4em 0;
-	background: #F9F9F9;
+/*	padding: 3em 0 4em 0;
+*/	background: #F9F9F9;
 }
 .tm-head{
 	text-align:center;
